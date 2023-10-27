@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lo_artists_files",
+  "info": {
+    "singularName": "lo-artists-file",
+    "pluralName": "lo-artists-files",
+    "displayName": "LOArtistsFile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "type": "text"
+    },
+    "version": {
+      "type": "biginteger"
+    },
+    "file_media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

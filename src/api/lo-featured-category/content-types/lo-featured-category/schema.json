@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lo_featured_categories",
+  "info": {
+    "singularName": "lo-featured-category",
+    "pluralName": "lo-featured-categories",
+    "displayName": "LOFeaturedCategories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mongoId": {
+      "type": "string"
+    },
+    "categoryOrder": {
+      "type": "integer"
+    },
+    "categoryName": {
+      "type": "string"
+    },
+    "deeplinkURL": {
+      "type": "string"
+    },
+    "categoryID": {
+      "type": "string"
+    }
+  }
+}
